@@ -200,6 +200,7 @@ img {
 /*section 2*/
 .section-second {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .section-second-heading {
@@ -210,10 +211,26 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.section-second-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .section-second-item {
   background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  width: calc((100%-72px) / 4);
+}
+
+.container-second-item {
+  padding: 32px 0;
 }
 
 .section-second-list-heading {
@@ -223,6 +240,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .section-second-list-paragraph {
@@ -230,6 +249,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  text-align: center;
 }
 
 /*section 3*/
