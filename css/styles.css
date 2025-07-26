@@ -163,7 +163,6 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
-  width: calc((100% - 72) / 4);
 }
 
 .visually-hidden {
@@ -178,6 +177,10 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.section-first-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .section-first-heading {
